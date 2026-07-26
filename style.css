@@ -114,7 +114,7 @@ body {
 @media (min-width: 1080px) {
   .container {
     height: 600px;
-    -ms-grid-columns: (50%)[2];
+    -ms-grid-columns: (50%)(2);
         grid-template-columns: repeat(2, 50%);
   }
   .container .imgBox img {
